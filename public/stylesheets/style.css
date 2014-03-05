@@ -1,0 +1,807 @@
+/* ---- bootstrap hacks ---- */
+.row {
+    margin: 0;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding: 0;
+}
+
+
+/* ---- START ---- */
+
+body {
+    font: 14px "Asap", sans-serif;
+    margin: 72px 0 0 0;
+    line-height: 18px;
+    min-width: 960px;
+    height:100%; 
+    min-height: 100%;
+}
+
+hr {
+    margin: 12px 0;
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.title-1 {
+    color: #30a848;
+    font-size: 3.0em;
+    text-align: center;
+    line-height: 1.6em;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.title-2 {
+    color: #30a848;
+    font-size: 2.0em;
+    line-height: 2.0em;
+}
+
+.title-3 {
+    color: #777;
+    font-size: 1.8em;
+    line-height: 1.2em;
+}
+
+.section {
+    padding: 0 0 80px 0;
+}
+
+/* ---- Terms ----- */
+.terms {
+    line-height: 24px;
+    padding-bottom: 80px;
+}
+.terms .title-1 {
+    padding: 20 0;
+}
+.terms .title-3 {
+    padding: 10 0px;
+}
+
+/* ---- TOP ---- */
+.top {
+    position: fixed;
+    width: 40px;
+    height: 80px;
+    color: #ccc;
+    z-index: 1000;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    left: 50%;
+    margin-left: 500px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.top:hover {
+    background-color: #eee;
+}
+
+.top > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -45% 0 0 -25%;
+}
+
+.top > div > .glyphicon-chevron-up {
+    color: #30a848;
+}
+
+/* ---- THUNDERCLAP DROPDOWN ---- */
+.thunderclap-dropdown {
+    position: fixed;
+    width: 100%;
+    height: 180px;
+    z-index: 1000;
+    text-align: center;
+    top: 72px;
+    cursor: pointer;
+    display: none;
+    background-color: white;
+    border-bottom: solid #ddd;
+}
+
+.thunderclap-dropdown > .content {
+    padding: 30px 0;
+}
+
+.thunderclap-dropdown > .content > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.thunderclap-what {
+    height: 100%;
+    width: 330px;
+    margin: 0 20px;
+}
+
+.thunderclap-how {
+    height: 100%;
+    width: 330px;
+    margin: 0 20px;
+}
+
+.thunderclap-close {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #999;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.thunderclap-close:hover {
+    background-color: #666;
+}
+
+.thunderclap-close:empty {
+    width: 40px;
+}
+
+.thunderclap-dropdown .title {
+    font-size: 1.6em;
+    line-height: 1.8em;
+    font-weight: 700;
+    color: #666;
+}
+
+.thunderclap-dropdown .desc {
+    color: #666;
+    line-height: 1.6em;
+}
+
+/* ---- NAV ---- */
+.nav {
+    height: 72px;
+    width: 100%;  
+    background-color: #30a848;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: white;
+    font-size: 1.2em;
+    z-index: 1000;
+    min-width: 960px;
+}
+.nav img {
+    cursor: pointer;
+}
+.nav .content {
+    height: 72px;
+    line-height: 72px;
+}
+
+.nav .logo {
+    float: left;
+}
+
+.nav ul {
+    float: right;
+    margin: 0px;
+}
+
+.nav li {
+    display: inline;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.nav li:hover {
+    color: #ccc;
+}
+.nav li.active {
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+}
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+.nav li a:hover {
+    color: #ccc;
+}
+
+/* ---- A ---- */
+.section-A {
+    height: 600px;
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: center;
+}
+
+.image-container > .image {
+    min-height: 100%;
+    height: 100%;
+    min-width: 100%;
+    display: block;
+    background-image: url("../images/A.png"); 
+    background-color: #444 !important;
+    background-position: center center;
+}
+
+.pitch-container {
+    min-height: 100%;
+    min-width: 100%;
+    display: block;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: transparent;
+}
+
+.pitch-box {
+    margin-top: 330px;
+    text-align: left;
+    /*text-shadow: 2px 2px 3px #000000*/
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.pitch-box .headline {
+    font-size: 4.6em;
+    line-height: 1.4em;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2;
+}
+
+.pitch-box .sub-headline {
+    font-size: 2.0em;
+    line-height: 1.0em;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.call-to-action {
+    width: 200px;
+    padding: 10px 10px;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    background-color: #30a848;
+    cursor: pointer;
+}
+
+
+/* ---- Section B ---- */
+.section-B {
+    padding-top: 40px;
+    text-align: center;
+    color: #777;
+}
+.section-B .row-span > div {
+    display: inline-block;
+    width: 310px; 
+    margin-bottom: 30px;
+}
+.section-B .row-span > div > img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section-B .row .a {
+}
+.section-B .row .b {
+}
+.section-B .row .c {
+}
+.section-B .row-span .desc {
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+.section-B a {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+/* ---- Section C0 ---- */
+
+.section-C0 {
+    background-color: #30a848; 
+    padding: 0 0 100 0;
+    text-align: left;
+    color: #ccc;
+}
+
+.link-to-twitter {
+    cursor: pointer;
+}
+
+.splash-icon {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+
+    border-radius: 60px;
+    background-color: #fff;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.splash-twitter {
+    top: 100px;
+    background-image: url("../images/C-twitter1.png");
+}
+
+.splash-thunderclap {
+    left: 150px;
+    top: 100px;
+    background-image: url("../images/C-thunderclap1.png");
+}
+
+.section-C0 .splash-thunderclap-help {
+    position: absolute;
+    background-color: #22BE4E;
+}
+
+.section-C .splash-thunderclap-help {
+    vertical-align: super;
+    font-size: 15px;
+    color: green;
+}
+
+.splash-thunderclap-help {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: #777;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    left: 270;
+    top: 190px;
+}
+
+.splash-image {
+    position: absolute;
+    width: 960px;
+    text-align: right;
+}
+
+.top-tag {
+    font-size: 2.0em; 
+    line-height: 1.2em;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+    
+.center-tag {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5.2em;
+    line-height: 1.2em;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2;
+    text-shadow: 1px 2px 5px #333;
+    padding-top: 280px;
+}
+
+.bottom-tag {
+    font-size: 2.2em; 
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.bottom-tag > span {
+    text-shadow: 1px 1px 3px #333;
+}
+
+/* ---- Section C ---- */
+.section-C {
+    color: #777;
+    background-color: #eee;
+}
+.section-C > .content > .title-3 {
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.celeb {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.celeb-image {
+    background-color: #9BE3AA;
+    display: inline-block;
+    height: 100%;
+    width: 240px;
+}
+.celeb-A .celeb-image {background-image: url("../images/C101.png"); }
+.celeb-B .celeb-image {background-image: url("../images/C102.png"); }
+.celeb-C .celeb-image {background-image: url("../images/C103.png"); }
+.celeb-D .celeb-image {background-image: url("../images/C104.png"); }
+
+.celeb-desc {
+    height: 100%;
+    width: 716px;
+    display: inline-block;
+    padding: 20px 30px 0 30px;
+    vertical-align: top;
+    position: relative;
+}
+
+.celeb-desc-top > div{
+    display: inline-block; 
+}
+
+.celeb-desc-top > .celeb-desc-top-text {
+    width: 550px;
+}
+
+.celeb-desc-text {
+    line-height: 1.6em;
+    font-size: 1.1em;
+}
+
+.celeb-headline-text {
+    line-height: 1.4em;
+    font-size: 1.3em;
+}
+
+.tweet-container {
+    width: 92%;
+    text-align: center;
+    bottom: 26px;
+    position: absolute;
+}
+
+.tweet-at {
+    margin: 0 auto;
+    line-height: 3.4em;
+    font-size: 1.2em;
+    background-color: #eee;
+    display: table;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.tweet-at > div {
+    display: inline-block;
+}
+.tweet-at:hover .twitter-icon {
+    background-image: url("../images/C-twitter1.png");
+}
+.tweet-at:hover {
+    background-color: rgb(212, 240, 211);
+}
+.twitter-text {
+    padding: 0 20px;
+}
+.twitter-icon {
+    width: 60px;
+    height: 60px;
+    display: table;
+    vertical-align: middle;
+    background-size: 30px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.twitter-icon {
+    background-image: url("../images/C-twitter0.png");
+}
+.twitter-icon:hover {
+    background-image: url("../images/C-twitter1.png");
+}
+
+.celeb .link {
+    width: 45px;
+    height: 45px;
+    background-size: 36px 36px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.celeb .thunderclap-link {background-image: url("../images/C-thunderclap0.png");}
+.celeb .thunderclap-link:hover {background-image: url("../images/C-thunderclap1.png");}
+.celeb .twitter-link {background-image: url("../images/C-twitter0.png");}
+.celeb .twitter-link:hover {background-image: url("../images/C-twitter1.png");}
+
+
+/* ---- Section D ---- */
+.section-D {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    background-color: #30a848;
+    color: white;
+    line-height: 24px;
+}
+.section-D .image {
+    display: inline-block;
+    width: 360px;
+    height: 360px;
+    margin: 20px 70px;
+    background-image: url("../images/D01.png");
+}
+.section-D .description {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+}
+.section-D .description .title-1 {
+    text-align: left;
+}
+
+.section-D .description .desc {
+    font-size: 1.1em;
+}
+
+.section-D a {
+    color: #30a848;
+    font-size: 1.2em;
+    background-color: white;
+    padding: 20px;
+}
+.section-D a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+/* ---- Section E ---- */
+.section-E {
+    padding-top: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+.section-E .future > div {
+    display: inline-block;
+    width: 470px;
+    vertical-align: top;
+}
+.section-E .future-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 30px auto;
+}
+.section-E .future-image-left {background-image:url("../images/E01.png");}
+.section-E .future-image-right {background-image:url("../images/E02.png");}
+.section-E .future-desc {
+    text-align: justify;
+    padding: 0 40px;
+    line-height: 1.8em;
+}
+
+/* ---- Section-F ---- */
+.section-F {
+    padding-top: 80px;
+    padding-bottom: 120px;
+    background-color: #30a848;
+}
+.section-F .title-2 {
+    margin: 0;
+    font-size: 2.4em;
+    line-height: 1.0em;
+    color: white;
+}
+.section-F .submit-result {
+    margin-right: 110px;
+    text-align: right;
+    display: none;
+}
+.text-box input {
+    width: 850px;
+    height: 60px;
+    border: 4px solid white;
+    display: inline-block;
+    margin-right: 40px;
+    padding: 2px;
+    font-size: 2.8em;
+    color: #30a848;
+    line-height: 1.4em;
+}
+.text-box input:focus {
+    outline: none;
+}
+.text-box .glyphicon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 2.4em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 1.8em;
+    cursor:pointer;
+    color: #30a848;
+    background-color: white;
+}
+.text-box .glyphicon:hover {
+    background-color: #eee;
+}
+
+/* ---- section-G---- */
+.section-G {
+    text-align: center;
+}
+
+.compliment-box {
+    display: inline-block;
+    height: 240px;
+    width: 300px;
+    margin: 8px;
+
+    color: #30a848;
+    background-color: #f0f0f0;
+}
+
+.compliment {
+    width: 300px;
+    height: 240px;
+    position: absolute;
+    text-align: center;
+}
+
+.compliment > .quote {
+    width: 100%;
+    height: 60%;
+    text-align: left;
+    display: table;
+    padding: 40 40 20 40;
+}
+.compliment p {
+    display: table-cell;
+    vertical-align: middle;
+}
+.compliment > .quoter {
+    width: 100%;
+    height: 25%;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    text-align: right;
+    /*background-color: #30a848;*/
+    color: #666;
+    padding-right: 40px;
+    display: table;
+}
+/* ---- Footer ---- */
+.footer {
+    padding-top: 40px;
+    width: 100%;
+    background-color: #444;
+    color: white;
+}
+
+.footer .info {
+    display: inline-block;
+    width: 310px;
+    padding: 40px;
+    font-size: 1.2em;
+    vertical-align: top;
+    line-height: 24px;
+}
+
+.footer .info .title {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.footer .footer-bottom {
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1.1em;
+    color: #ccc;
+}
+.footer .footer-bottom img {
+    margin: 20px auto;
+}
+.footer .footer-share {
+    text-align: center;
+}
+.footer .footer-share > div{
+    width: 60px;
+    margin: 0px 10px;
+    display: inline-block;
+}
+#custom-tweet-button a {
+    background: url("../images/twitter.png") center no-repeat;
+    display: block;
+    padding: 20px;
+    background-size: 24px;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #777;
+}
+#custom-fb-button a {
+    background: url("../images/facebook.png") center no-repeat;
+    display: block;
+    padding: 20px;
+    background-size: 30px;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #777;
+}
+#custom-tweet-button a:hover {
+    background-color: #30a848;
+    cursor: pointer;
+}
+#custom-fb-button a:hover {
+    background-color: #30a848;
+    cursor: pointer;
+}
+
+/* ---- Section-F (process)---- */
+
+.backbar {
+    padding-top: 50px;
+}
+.backbar a {
+    color: #30a848;
+}
+.backbar a:hover {
+    text-decoration: none;
+    color: #30a848;
+}
+
+.process-A .title-1 {
+    line-height: 2.0em;
+}
+.process-A .intro {
+    margin-bottom: 80px;
+}
+.process-A .intro-desc {
+    display: inline-block;
+    width: 660px;
+    margin-left: 40px;
+    top: -40px;
+    position: relative;
+}
+.process-A .intro-image {
+    display: inline-block;
+    background: url("../images/F01.png") center no-repeat;
+    border-radius: 120px;
+    width: 240px;
+    height: 240px;
+}
+
+.process-B {
+    margin-bottom: 80px;
+}
+.process-B .step {
+    margin: 40px auto;
+    width: 800px;
+}
+
+.process-B .step-image {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+}
+.process-B .step-desc {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 600px;
+    top: 40px;
+    margin: 0 0 0 40px;
+}
+
+.process-B .step-image0 {background: url("../images/F02.png") center no-repeat; background-size: cover;}
+.process-B .step-image1 {background: url("../images/F03.png") center no-repeat; background-size: cover;}
+.process-B .step-image2 {background: url("../images/F04.png") center no-repeat; background-size: cover;}
+.process-B .step-image3 {background: url("../images/F05.png") center no-repeat; background-size: cover;}
+.process-B .step-image4 {background: url("../images/F06.png") center no-repeat; background-size: cover;}
+
+.process-C {
+    text-align: center;
+    color: #888;
+    margin: 80px auto;
+}
+
+
