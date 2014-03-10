@@ -264,7 +264,12 @@ hr {
     font-size: 2.0em;
     line-height: 1.0em;
     font-weight: 100;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+.pitch-box .sub-headline.video-link {
+    margin-bottom: 30px;
+    font-weight: normal;
 }
 
 .call-to-action {
