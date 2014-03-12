@@ -55,6 +55,16 @@ $(document).ready(function() {
     $(".text-box .glyphicon").each(function(i) {
         $(this).click(function() {
             var entry = $(this).prev("input").val();
+
+            /* ===== HI SORRY WE DIED ===== */
+            console.log(entry);
+            if (entry.toLowerCase() === "hi sorry we died") {
+                window.location.replace("http://www.hisorrywedied.com");
+                return false;
+            }
+
+            /* ============================ */
+
             var celeb = ($(this).attr("person-type") == "celeb");
             var func = celeb ? isValidCelebEntry : isValidNormalEntry;
             if (!func(entry)) { 
